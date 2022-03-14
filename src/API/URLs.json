@@ -1,0 +1,42 @@
+{
+    "Users":
+    [
+        {
+            "Description":"Add users",
+            "URL":"http://127.0.0.1:5000/users/",
+            "Request type":"POST"
+        },
+        {
+            "Description":"Delete users",    
+            "URL":"http://127.0.0.1:5000/users/",
+            "Request type":"DELETE"
+        }
+    ],
+
+    "Questions":
+    [
+        {
+            "Description":"Add question",
+            "URL":"http://127.0.0.1:5000/AddQuestion/<user_id>",
+            "Request":"POST"
+        },
+        {
+            "Description":"Delete question",
+            "URL":"http://127.0.0.1:5000/DelQuestion/",
+            "Request":"DELETE"
+        }
+    ],
+    "Quiz":
+    [
+        {
+            "Description":"To fetch quiz",
+            "URL":"http://127.0.0.1:5000/quiz/",
+            "Request":"GET"
+        },
+        {
+            "Description":"To submit answers and get score for the created quiz",
+            "URL":"http://127.0.0.1:5000/quizAnswers/",
+            "Result":"POST"
+        }
+    ]
+}
